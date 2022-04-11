@@ -9,7 +9,7 @@ h1 {
 
 /* menu */
 nav {
-  background-color: rgb(19, 3, 46);
+  background-image: linear-gradient(rgb(37, 27, 90), rgb(103, 39, 102));
 }
 
 .menu {
@@ -85,6 +85,7 @@ footer img {
     "titulo titulo titulo"
     "texto texto texto"
     "img1 img2 img3";
+
 }
 .parrafo {
   width: 93%;
@@ -95,11 +96,17 @@ footer img {
   color: rgba(35, 21, 66, 0.959);
   font-family: "Lora", serif;
   font-size: 20px;
+  transform: rotate;
 }
+
 
 .imagen {
   width: 25rem;
   height: 20rem;
+  transition: all 1s;
+}
+.imagen:hover{
+  transform: scale(1.1)
 }
 
 .img1 {
@@ -130,6 +137,7 @@ footer img {
     "textonos"
     "lista"
     "imgnos";
+
 }
 
 .parrafoNosotros {
@@ -158,6 +166,10 @@ footer img {
   margin-bottom: 10%;
   grid-area: imgnos;
   width: 50%;
+  transition: all 2s;
+}
+.imagenNosotros:hover{
+  transform: scale(1.2)
 }
 
 /* pagina propuesta */
